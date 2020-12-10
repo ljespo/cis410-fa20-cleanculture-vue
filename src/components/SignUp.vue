@@ -10,7 +10,6 @@
             <small v-if="dupEmail" class="from-text text-danger">Please chose a different email.</small>
             </div> 
        
-            
             <div class="form-group"><label for="password-input">Password</label> <input type="password" id="password-input" placeholder="Password" required="required" value="asdfasdf" class="form-control" v-model="password">
             
             </div> <button type="submit" class="btn btn-primary">Submit</button> <p id="error-signup" class="text-danger">{{errorMessage}}</p>

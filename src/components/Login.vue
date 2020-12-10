@@ -43,7 +43,6 @@ export default {
             
             axios.post("/participants/login", myFormData)
                 .then(myResponse=>{
-                    console.log("here is my response", myResponse)
 
                     this.$store.commit("storeTokenInApp", myResponse.data.token);
                     this.$store.commit("storeUserInApp", myResponse.data.user);

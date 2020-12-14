@@ -18,6 +18,9 @@
         <br/>
             <button type="button" class="btn btn-outline-success">Sign in to add a car</button>
         </router-link>
+        <br/>
+        <br/>
+        <router-view></router-view>
     </div>
 </template>
 
